@@ -442,7 +442,7 @@
     //Newer browsers - masks
     @supports(-webkit-mask-image: url()) or (webkit-mask-image: url()) {
       background-color: var(--color-primary);
-      -webkit-mask-image: url(../img/chevron-thin-right.svg);
+      -webkit-mask-image: url(../img/SVG/chevron-thin-right.svg);
       -webkit-mask-size: cover;
       mask-image: url(../img/chevron-thin-right.svg);
       mask-size: cover;
@@ -635,4 +635,8 @@
     outline: none;
     animation: pulsate 1s infinite;
   }
+}
+
+.try {
+  width: 100%;
 }
